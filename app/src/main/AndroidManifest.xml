@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pitlv.androidexamplesandtutorialsforbeginners">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/android_icon"
+        android:label="Android for Beginners"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserInputControls"
+            android:label="User Input Controls" />
+
+        <activity
+            android:name=".UIC.ToggleButtonActivity"
+            android:label="ToggleButton" />
+
+        <activity
+            android:name=".UIC.RadioButtonActivity"
+            android:label="RadioButton" />
+
+        <activity
+            android:name=".UIC.EditTextActivity"
+            android:label="EditText" />
+
+        <activity
+            android:name=".UIC.AutoCompleteActivity"
+            android:label="Auto Complete" />
+
+        <activity
+            android:name=".UIC.SpinnerActivity"
+            android:label="Spinner" />
+
+        <activity
+            android:name=".Menu"
+            android:label="Menus" />
+
+        <activity
+            android:name=".Menus.OptionsMenuActivity"
+            android:label="Overflow Menu" />
+
+        <activity
+            android:name=".Menus.PopupMenuActivity"
+            android:label="Popup Menu" />
+
+        <activity
+            android:name=".UserInputEvents"
+            android:label="User Input Events" />
+
+        <activity
+            android:name=".UIE.LongClickActivity"
+            android:label="Long Press" />
+
+        <activity
+            android:name=".UIE.DragAndDropActivity"
+            android:label="Drag and Drop" />
+
+        <activity
+            android:name=".UIE.BackgroundActivity"
+            android:label="Background Image" />
+
+        <activity
+            android:name=".UIE.AdvancedDragAndDropActivity"
+            android:label="Advanced Drag and Drop" />
+
+        <activity
+            android:name=".Navigation"
+            android:label="Navigation" />
+
+        <activity
+            android:name=".Nav.MultiActivity"
+            android:label="Multiple Activity" />
+
+        <activity android:name=".Nav.MultiActivity2" />
+    </application>
+
+</manifest>

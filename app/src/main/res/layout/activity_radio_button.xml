@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pitlv.androidexamplesandtutorialsforbeginners.UIC.RadioButtonActivity">
+
+    <TextView
+        android:id="@+id/radio_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dfb26b"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_great"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is great."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rb_okay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is okay."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/rb_bad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is bad."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClear"
+            android:text="Clear " />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSubmit"
+            android:text="Submit" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ff22ff"
+            android:text="Learn more about Radio Button" />
+    </RelativeLayout>
+</LinearLayout>

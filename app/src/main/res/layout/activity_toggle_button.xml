@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pitlv.androidexamplesandtutorialsforbeginners.UIC.ToggleButton">
+
+    <TextView
+        android:id="@+id/toggle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dfb26b"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <ToggleButton
+            android:id="@+id/toggle_buttton_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp" />
+
+        <ToggleButton
+            android:id="@+id/toggle_buttton_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:checked="true"
+            android:textOff="I'm Off"
+            android:textOn="I'm On" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/update_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Test ToggleButton" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ff22ff"
+            android:text="Learn more about Toggle Button" />
+    </RelativeLayout>
+
+</LinearLayout>

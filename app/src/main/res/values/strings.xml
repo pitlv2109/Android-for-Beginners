@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">"Android Examples and Tutorials for Beginners "</string>
+
+    <!-- activity_main.xml values -->
+    <string name="main_user_input_controls">User Input Controls</string>
+    <string name="main_menus">Menus</string>
+    <string name="main_user_input_events">User Input Events</string>
+    <string name="main_navigation">Navigation</string>
+    <string name="main_layouts">Layouts</string>
+    <string name="main_misc">Miscellaneous</string>
+    <string name="title_activity_user_input_controls">UserInputControls</string>
+
+    <!-- activity_user_input_controls.xml values -->
+    <string name="uic_toggle_button">Toggle Button</string>
+    <string name="uic_radio_button">Radio Button</string>
+    <string name="uic_exit_text">Edit Text</string>
+    <string name="uic_autocomplete">Auto Complete</string>
+    <string name="uic_spinner">Spinners (Dropdown Lists)</string>
+    <string name="title_activity_options_menu">OptionsMenuActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

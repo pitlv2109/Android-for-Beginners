@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pitlv.androidexamplesandtutorialsforbeginners.UIC.AutoCompleteActivity">
+
+    <TextView
+        android:id="@+id/auto_complete_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dfb26b"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_complete_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Type something here..." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ff22ff"
+            android:onClick="learn_more"
+            android:text="Learn more about AutoComplete" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pitlv.androidexamplesandtutorialsforbeginners.UIE.AdvancedDragAndDropActivity">
+
+    <TextView
+        android:id="@+id/advanced_dad_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dfb26b"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Place these foods in your order of preference." />
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Apple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Cake"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/option_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/option"
+        android:gravity="center"
+        android:text="Cheese"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="Most favorite" />
+
+    <TextView
+        android:id="@+id/choice_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/choice_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:text="Least favorite" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ff22ff"
+            android:onClick="learn_more"
+            android:text="Learn more about Drag and Drop" />
+    </RelativeLayout>
+
+</LinearLayout>
